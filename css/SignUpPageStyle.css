@@ -1,0 +1,100 @@
+.backG {
+  background-image: url("http://localhost/blue-abstract-waves-creative-blue-wavy-background-blue-backgrounds-abstract-waves.jpg");
+
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+body , html {
+  height:100%;
+}
+#demoFont {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;!important;
+  font-weight: normal;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
+* {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+
+  text-transform: uppercase;
+}
+#sign2:hover {
+  color: #ffffff;
+  background-image: linear-gradient(to right top, #7e00f4, #8216ed, #8623e7, #892de0, #8c35da);
+}
+
+
+
+
+
+
+/*#welcomeText {*/
+/*  !*color: #fff;*!*/
+/*  !*font-family: monospace;*!*/
+/*  overflow: hidden; !* Ensures the content is not revealed until the animation *!*/
+/*  border-right: .15em solid orange; !* The typwriter cursor *!*/
+/*  white-space: nowrap; !* Keeps the content on a single line *!*/
+/*  margin: 0 auto; !* Gives that scrolling effect as the typing happens *!*/
+/*  !*letter-spacing: .15em; !* Adjust as needed *!*!*/
+/*  animation:*/
+/*    typing 3.5s steps(30, end),*/
+/*    blink-caret .5s step-end infinite;*/
+/*}*/
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #f0009c
+  }
+}
+
+
+
+
+.fonting {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 60px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;!important;
+  font-weight: normal;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
+
+
+.freedomText {
+  /*color: #fff;*/
+  /*font-family: monospace;*/
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /*letter-spacing: .15em; !* Adjust as needed *!*/
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}

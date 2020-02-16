@@ -1,0 +1,125 @@
+
+
+* {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  letter-spacing: 2px;
+  word-spacing: 2px;
+
+  font-weight: normal;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
+
+.bg1 {
+  background-image: url("http://localhost/home1.jpg");
+
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+body , html {
+   height:100%;
+ }
+#signup {
+  border-radius: 20px;
+  background-image: linear-gradient(to right top, #005eea, #3d51da, #5243c9, #6034b8, #6823a6);
+  font-weight: bold;
+}
+#signup:hover {
+  color: #ffffff;
+  background-image: linear-gradient(to right top, #7e00f4, #8216ed, #8623e7, #892de0, #8c35da);
+
+
+}
+ul li a:hover {
+  border-bottom: 3px solid #8216ED;
+}
+
+/*.bg2 {
+  background-image: url("http://localhost/music2.jpg");
+
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#signupheader {
+  background-color: #ff0099;
+}
+#signupcard {
+
+}
+*/
+#hometext {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 5px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;!important;
+  font-weight: normal;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
+.hometext {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  letter-spacing: 2px;
+  word-spacing: 2px;
+
+  font-weight: normal;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
+
+
+.mine {
+  background-image: linear-gradient(to right top, #005eea, #3d51da, #5243c9, #6034b8, #6823a6);
+}
+
+#modalButton {
+  border-radius: 20px;
+  background-image: linear-gradient(to right top, #005eea, #3d51da, #5243c9, #6034b8, #6823a6);
+  font-weight: bold;
+}
+#modalButton:hover {
+  color: #ffffff;
+  background-image: linear-gradient(to right top, #7e00f4, #8216ed, #8623e7, #892de0, #8c35da);
+}
+
+
+#carocard button {
+  border-radius: 20px;
+  background-image: linear-gradient(to right top, #005eea, #3d51da, #5243c9, #6034b8, #6823a6);
+  font-weight: bold;
+}
+#carocard button:hover {
+  color: #ffffff;
+  background-image: linear-gradient(to right top, #7e00f4, #8216ed, #8623e7, #892de0, #8c35da);
+}
+
+#take {
+  border-radius: 20px;
+  background-image: linear-gradient(to right top, #005eea, #3d51da, #5243c9, #6034b8, #6823a6);
+  font-weight: bold;
+}
+#take:hover {
+  color: #ffffff;
+  background-image: linear-gradient(to right top, #7e00f4, #8216ed, #8623e7, #892de0, #8c35da);
+
+
+}
